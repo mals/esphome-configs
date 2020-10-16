@@ -15,15 +15,15 @@ The DETA [Smart Fan Speed Controller with Touch Light Switch (6914HA)](https://w
 ## GPIO Pinout
 
 | Pin     | Function                           |
-|---------|------------------------------------|
-| GPIO0   | Button, Middle (Fan On/Off)        |
-| GPIO3   | Status LED *(inverted)*            |
-| GPIO4   | Relay 3, Bottom (Fan Speed, LED)   |
-| GPIO5   | Button, Bottom (Fan Speed)         |
-| GPIO13  | Relay 2, Middle *(includes LED)*   |
-| GPIO14  | Relay 1, Top *(includes LED)*      |
-| GPIO15  | Relay 4, Hidden (Fan Speed)        |
-| GPIO16  | Button, Top (Light)                |
+|---------|-----------------------------------------------|
+| GPIO0   | Button, Middle (Fan On/Off) *(includes LED)*  |
+| GPIO3   | Status LED *(inverted)*                       |
+| GPIO4   | Relay 3, Bottom (Fan Speed, LED)              |
+| GPIO5   | Button, Bottom (Fan Speed) *(includes LED)*   |
+| GPIO13  | Relay 2, Middle *(includes LED)*              |
+| GPIO14  | Relay 1, Top (Light) *(includes LED)*         |
+| GPIO15  | Relay 4, Hidden (Fan Speed)                   |
+| GPIO16  | Button, Top (Light)                           |
 
 Note that each relay (1, 2, 3) shares a pin with its associated LED; it's not possible to turn either relay on/off independently of its button LED.
 The layout designation here assumes that it is installed vertically, with the status LED (group of 6 dots) on the right-hand side.

@@ -32,9 +32,9 @@ The fan speed is controlled by relay 3 and relay 4 as described below:
 
 | Speed   | Relay 3 | Relay 4 |
 |---------|-------------------|
-| LOW     |  Off    |. Off    |
-| MED     |  Off    |. On     |
-| HIGH    |  On     |. On     |
+| LOW     |  Off    |  Off    |
+| MED     |  Off    |  On     |
+| HIGH    |  On     |  On     |
 
 ## Getting it up and running
 ```yaml

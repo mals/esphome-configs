@@ -131,6 +131,7 @@ output:
             - output.turn_on: relay2
             - output.turn_on: relay3
             - output.turn_on: relay4
+            
 light:
   # Top button
   - platform: binary
@@ -176,7 +177,6 @@ binary_sensor:
       mode: INPUT_PULLUP
       inverted: True
     name: "${friendly_name} Fan Speed Button"
-    #toggle relay on push
     on_press:
       then:
         - fan.turn_on:

@@ -10,7 +10,7 @@ standard: au
 
 ## General Notes
 
-The DETA [Smart Fan Speed Controller with Touch Light Switch (6914HA)](https://www.bunnings.com.au/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815) are made by Arlec as part of the [Grid Connect ecosystem](https://grid-connect.com.au/), and are sold at Bunnings in Australia and New Zealand.  They can be flashed by using a serial programmer.
+The DETA [Smart Fan Speed Controller with Touch Light Switch (6914HA)](https://www.bunnings.com.au/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815) are made by Arlec as part of the [Grid Connect ecosystem](https://grid-connect.com.au/), and are sold at Bunnings in Australia and New Zealand.  It can be flashed using a USB serial programmer.
 
 ## GPIO Pinout
 
